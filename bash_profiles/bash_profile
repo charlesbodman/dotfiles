@@ -1,0 +1,3 @@
+PROFILES_PATH=~/Documents/Github/charlesbodman/dot/bash_profiles/load_profiles
+
+[ -r $PROFILES_PATH ] && source $PROFILES_PATH 
