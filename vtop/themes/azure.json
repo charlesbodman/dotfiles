@@ -1,0 +1,34 @@
+{
+	"name": "Azure",
+	"author": "Charles Bodman",
+	"title": {
+		"fg": "#5BB0A0"
+	},
+	"chart": {
+		"fg": "#5BB0A0",
+		"border": {
+			"type": "line",
+			"fg": "white"
+		}
+	},
+	"table": {
+		"fg": "white",
+		"items": {
+			"selected": {
+				"bg": "#5BB0A0",
+				"fg": "#000000"
+			},
+			"item": {
+				"fg": "#ffffff",
+				"bg": "#000000"
+			}
+		},
+		"border": {
+			"type": "line",
+			"fg": "white"
+		}
+	},
+	"footer": {
+		"fg": "white"
+	}
+}
