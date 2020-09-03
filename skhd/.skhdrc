@@ -1,3 +1,8 @@
+
+.blacklist [
+    "Robo 3T"
+]
+
 # open Kitty Terminal
 cmd - return : /Applications/Kitty.app/Contents/MacOS/kitty --single-instance --config ~/Documents/Github/charlesbodman/dot/kitty/kitty.conf
 

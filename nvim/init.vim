@@ -8,6 +8,8 @@ endif
 call plug#begin('~/.config/nvim/plugged')
 Plug 'StanAngeloff/php.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'preservim/nerdtree'
 call plug#end()
 
 filetype plugin indent on
@@ -21,6 +23,7 @@ set relativenumber
 " Use command ':verbose imap <tab>' to make sure tab is not mapped by other plugin.
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<TAB>" :
       \ coc#refresh()
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+
+nnoremap <C-p> :<C-u>FZF<CR>

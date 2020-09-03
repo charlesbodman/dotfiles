@@ -1,3 +1,7 @@
+set -o vi
+
 PROFILES_PATH=~/Documents/Github/charlesbodman/dot/bash_profiles/load_profiles
 
 [ -r $PROFILES_PATH ] && source $PROFILES_PATH 
+
+BASH_SILENCE_DEPRECATION_WARNING=1
