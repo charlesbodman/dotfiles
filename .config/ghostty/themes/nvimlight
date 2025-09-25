@@ -1,0 +1,23 @@
+palette = 0=#ebeef5
+palette = 1=#ffbcb5
+palette = 2=#71c087  # Adjusted green
+palette = 3=#f4d88c
+palette = 4=#4a9bdc  # Adjusted blue
+palette = 5=#ffc3fa
+palette = 6=#83efef
+palette = 7=#9b9ea4
+palette = 8=#d7dae1
+palette = 9=#ffbcb5
+palette = 10=#71c087  # Adjusted green
+palette = 11=#f4d88c
+palette = 12=#4a9bdc  # Adjusted blue
+palette = 13=#ffc3fa
+palette = 14=#83efef
+palette = 15=#c4c6cd
+background = #ebeef5
+foreground = #2c2e33
+cursor-color = #d7dae1
+cursor-text = #2c2e33
+selection-background = #c4c6cd
+selection-foreground = #2c2e33
+
